@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
         
         task.innerText = newTaskDescription.value;
         task.style.text-decoration = 'none';
-        task.style.color = "red"
+        task.style.color = "red";
         ul.appendChild(task);
         newTaskDescription.value = "";
         
