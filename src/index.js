@@ -13,6 +13,9 @@ document.addEventListener("DOMContentLoaded", () => {
         const newTask = document.createElement("li");
         const ul = document.getElementById("tasks");
         
+        newTask.innerText = newTaskDescription.value;
+        ul.appendChild(newTask);
+        newTaskDescription.value = "";
         
         
     });
