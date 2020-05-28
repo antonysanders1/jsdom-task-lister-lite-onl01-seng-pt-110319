@@ -4,4 +4,10 @@ document.addEventListener("DOMContentLoaded", () => {
   const tags = document.getElementsByTagName("input");
     tags[1].addEventListener("click", function(event) {
         event.preventDefault();
+        
+        
+        
+        
+        
+    });
 });
