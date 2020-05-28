@@ -17,7 +17,6 @@ document.addEventListener("DOMContentLoaded", () => {
         ul.appendChild(task);
         newTaskDescription.value = "";
         task.style.color = 'red';
-        task.style.textDecoration = 'none';
         task.style.fontSize = '20px';
         
         
