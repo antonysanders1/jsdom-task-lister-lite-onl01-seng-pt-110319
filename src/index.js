@@ -9,7 +9,9 @@ document.addEventListener("DOMContentLoaded", () => {
       // prevents the default action of redirect upon submission
         event.preventDefault();
         
-        
+        const newTaskDescription = document.getElementById("new-task-description");
+        const newTask = document.createElement("li");
+        const ul = document.getElementById("tasks");
         
         
         
