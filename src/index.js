@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const ul = document.getElementById("tasks");
         
         task.innerText = newTaskDescription.value;
-        ul.appendChild(newTask);
+        ul.appendChild(task);
         newTaskDescription.value = "";
         
         
