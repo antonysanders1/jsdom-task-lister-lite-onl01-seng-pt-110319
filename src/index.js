@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
         newTaskDescription.value = "";
         task.style.color = 'red';
         task.style.text_decoration = 'none';
-        task.style.fontsize = '20px';
+        //task.style.fontsize = '20px';
         
         
     });
